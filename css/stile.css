@@ -134,11 +134,14 @@ body {
   padding-top: 32px;
   padding-bottom: 32px;
   display: block;
+  color: var(--first-color);
 }
+
 .line {
 position: relative;
 color: var(--accent-color);
 }
+
 
 .line::after {
 content: "";
@@ -163,9 +166,6 @@ margin-bottom: -1px;
   margin-right: 30px;
 }
 
-.heder-item a {
-  color: var(--first-color);
-}
 
 .heder-item:not(:last-child) {
   margin-right: 50px;
